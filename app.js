@@ -6,7 +6,7 @@ const path = require ('path');
 const app = express();
 
 app.get('/', function (req, res) {
-    res.send('Root');
+    res.send('Root and added now');
 });
 
 app.listen(3000);
